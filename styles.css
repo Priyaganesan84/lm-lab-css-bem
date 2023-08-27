@@ -3,19 +3,25 @@
 /* Block: container for cards */
 .container {
     display: flex;
-    justify-content: space-around;
-    background-color: #f0f0f0; /* Light background color */
+    flex-wrap: wrap;
+    justify-content: space-around; /* Center the cards horizontally */
+    align-items: center; /* Center the cards vertically */
+     background-color: #f0f0f0; /* Light background color */
     padding: 1.25em;
     box-shadow: 0 0 0.625em  rgba(0, 0, 0, 0.2);
+ 
 }
+
+
 
 /* Block: card */
 .card {
     border: 0.125em solid #000;
     border-radius: 0.625em;
     padding: 1.25em;
-    width: 215.625em;
+    width: 15.625em;
     text-align: center;
+    
 }
 
 /* Modifier: Dark card */
@@ -34,4 +40,28 @@
     max-width: 100%; /* Set the maximum width to 100% */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover;
+}
+
+
+/* Button styles */
+.button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Red warning/danger button */
+.danger-button {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+/* Opposing button */
+.opposing-button {
+    background-color: #00ff00;
+    color: #000;
 }
