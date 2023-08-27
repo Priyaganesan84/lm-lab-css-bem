@@ -5,16 +5,16 @@
     display: flex;
     justify-content: space-around;
     background-color: #f0f0f0; /* Light background color */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 1.25em;
+    box-shadow: 0 0 0.625em  rgba(0, 0, 0, 0.2);
 }
 
 /* Block: card */
 .card {
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
+    border: 0.125em solid #000;
+    border-radius: 0.625em;
+    padding: 1.25em;
+    width: 215.625em;
     text-align: center;
 }
 
