@@ -4,8 +4,8 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Center the cards horizontally */
-    align-items: center; /* Center the cards vertically */
+    justify-content: space-around; 
+    align-items: center; 
      background-color: #f0f0f0; /* Light background color */
     padding: 1.25em;
     box-shadow: 0 0 0.625em  rgba(0, 0, 0, 0.2);
