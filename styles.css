@@ -1,7 +1,37 @@
 /* You can delete / re-write this img class  */
 
-img {
-    max-width: 200px;
+/* Block: container for cards */
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Happy coding! */
+/* Block: card */
+.card {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+/* Modifier: Dark card */
+.dark-card {
+    background-color: #333; /* Dark card background color */
+    color: #fff; /* Text color for dark card */
+}
+
+/* Modifier: Light card */
+.light-card {
+    background-color: #f0f0f0; /* Light card background color */
+    color: #000; /* Text color for light card */
+}
+
+.card-image {
+    max-width: 100%; /* Set the maximum width to 100% */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}
