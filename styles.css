@@ -37,19 +37,19 @@
 }
 
 .card-image {
-    max-width: 100%; /* Set the maximum width to 100% */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto;
     object-fit: cover;
 }
 
 
 /* Button styles */
 .button {
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
+    border-radius: 0.3125em;
+    margin-top: 0.625em;
     font-weight: bold;
     text-transform: uppercase;
 }
